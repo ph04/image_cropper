@@ -156,11 +156,12 @@ def parse_args():
         print(INVALID_ARGUMENT)
 
         print(f"\nThe specified output folder `{output_folder}` does not exist")
-        print("Would you like to create `{output_folder}` and proceed? [y/n]", end=" ")
 
         done = False
 
         while not done:
+            print("Would you like to create `{output_folder}` and proceed? [y/n]", end=" ")
+
             choosen = input().lower()
 
             if choosen == "y":
