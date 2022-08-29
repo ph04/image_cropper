@@ -7,7 +7,7 @@ HELP_MESSAGE = """
 
     Commands:
 
-        --input | -i [INPUT FILE] [INPUT FOLDER] [OUTPUT FOLDER]:
+        --input | -i <INPUT FILE> <INPUT FOLDER> <OUTPUT FOLDER>:
             
             Crops the pictures inside [INPUT FOLDER], as defined
             inside [INPUT FILE], and saves the cropped pictures inside [OUTPUT FOLDER].
